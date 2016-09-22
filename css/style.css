@@ -3,7 +3,7 @@
 */
 
 #contenidos{
-	width: 1000px;
+	width: 600px;
 	height: auto;
 	margin: auto;
 	position: relative;
@@ -29,7 +29,7 @@ text-align: center;
 
 h2{
 font-family: 'Indie Flower', cursive;
-color: white;
+color: black;
 margin-left: 10px;
 font-size: 20px;
 text-align: left; 
@@ -52,7 +52,7 @@ header{
 nav{
 width: 1000px;
 height: 50px;
-background: red;
+background: white;
 border-radius: 10px;
 
 }
@@ -65,7 +65,7 @@ li{
 	float: left;
 	list-style-type: none;
 	padding: 10px;
-	background: black;
+	background: blue;
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset; 
@@ -94,7 +94,7 @@ aside{
 footer{
 width: 1000px;
 height: 70px;
-background: maroon;
+background: white;
 float: left;
 margin-top: 20px;
 border-radius: 10px;
