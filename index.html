@@ -12,11 +12,21 @@
     <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" id="coToolbarStyle" href="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/styles/placeholder.css" type="text/css"><script type="text/javascript" id="cosymantecbfw_removeToolbar">(function () {				var toolbarElement = {},					parent = {},					interval = 0,					retryCount = 0,					isRemoved = false;				if (window.location.protocol === 'file:') {					interval = window.setInterval(function () {						toolbarElement = document.getElementById('coFrameDiv');						if (toolbarElement) {							parent = toolbarElement.parentNode;							if (parent) {								parent.removeChild(toolbarElement);								isRemoved = true;								if (document.body && document.body.style) {									document.body.style.setProperty('margin-top', '0px', 'important');								}							}						}						retryCount += 1;						if (retryCount > 10 || isRemoved) {							window.clearInterval(interval);						}					}, 10);				}			})();</script></head>
 
+
+
+ <.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;} >
+
 <body>	
 
 <Div id="contenidos">
 	<header>
-	    <img src="./Actividad2/descarga.jpeg" width="500px" class="imgcenter">
+	    <img src="./Actividad2/1.jpeg" width="500px" class="imgcenter">
 		<h1>UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA UNAD  CURSO DISEÑO DE SISTEMAS WEB </h1>
 		<h2>UNAD la mejor Universidad de Colombia y el mundo</h2>
 	</header>
@@ -24,7 +34,7 @@
 <nav>
 	<ul class="menu">
 		<li><a href="http://www.google.com" class="menu">Google</a></li>
-		<li><a href="http://www.unad.edu.co"class="menu">Universidad UNAD</a></li>
+		<li><a href="http://www.unad.edu.co" class="menu">Universidad UNAD</a></li>
 		<li><a href="httP://www.enter.co" class="menu">Revista Enter</a></li>
 	</ul>
 </nav>
